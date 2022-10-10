@@ -28,14 +28,6 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-  <!-- Deploy to internal maven repository -->
-<distributionManagement>
-    <repository>
-      <id>internal.repo</id>
-      <name>Internal Repository</name>
-      <url>http://jenkins.internal.com/</url>
-    </repository>
-</distributionManagement>
   <build>
     <finalName>helloworld</finalName>
     <plugins>
