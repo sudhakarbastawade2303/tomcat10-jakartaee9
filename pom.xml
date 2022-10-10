@@ -28,7 +28,14 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
-
+  <!-- Deploy to internal maven repository -->
+<distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Internal Repository</name>
+      <url>http://jenkins.internal.com/</url>
+    </repository>
+</distributionManagement>
   <build>
     <finalName>helloworld</finalName>
     <plugins>
@@ -80,10 +87,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-   <repository>
-      <id>172.31.40.130</id>
-        <url>http://13.234.78.17:8090</url>
-   </repository>
-</distributionManagement>
 </project>
