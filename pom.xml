@@ -80,4 +80,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+   <repository>
+      <id>tomcat-server</id>
+        <url>http://13.234.78.17:8090</url>
+   </repository>
+</distributionManagement>
 </project>
