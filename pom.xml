@@ -28,6 +28,14 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+        <repository>
+            <id>Tomcat-server</id>
+            <url>http://13.234.78.17:8090/</url>
+        </repository>
+    </distributionManagement>
+  
   <build>
     <finalName>helloworld</finalName>
     <plugins>
