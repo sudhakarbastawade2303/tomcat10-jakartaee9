@@ -32,7 +32,7 @@
   <distributionManagement>
         <repository>
             <id>Tomcat-server</id>
-            <url>http://13.234.78.17:8090/</url>
+            <url>http://13.234.78.17:8080/</url>
         </repository>
     </distributionManagement>
   
