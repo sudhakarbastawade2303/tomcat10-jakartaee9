@@ -82,7 +82,7 @@
   </build>
   <distributionManagement>
    <repository>
-      <id>tomcat-server</id>
+      <id>172.31.40.130</id>
         <url>http://13.234.78.17:8090</url>
    </repository>
 </distributionManagement>
